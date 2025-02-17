@@ -1,6 +1,6 @@
 n = int(input("Enter the input number: "))
 m = 2 * n + 3
-width = 2
+width = 3
 for i in range(m):
     for j in range(m):
         if j == 0 or j == m - 1:
