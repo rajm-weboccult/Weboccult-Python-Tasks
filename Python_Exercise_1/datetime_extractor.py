@@ -1,7 +1,7 @@
 #Write a Python program to extract the year, month, date and time using Lambda. Input: 2020-01-15 09:03:32.744178
 
 """
-Extracts year, month, date, and time from a datetime string and validates the format.
+Extracts year, month, date, and time from a datetime string and validate the format.
 """
 
 # Lambda function to extract components
