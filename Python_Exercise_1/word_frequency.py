@@ -11,7 +11,7 @@ def remove_punctuation(text):
 # Input from the user and word frequency calculation
 if __name__ == "__main__":
     """Remove punctuation, count word frequencies, and display the results."""
-    text_input = input("Enter a sentence or paragraph: ")
+    text_input = input("Enter a sentence or paragraph for getting word frequency in it: ")
     
     # Step 1: Remove punctuation
     clean_txt = remove_punctuation(text_input)
