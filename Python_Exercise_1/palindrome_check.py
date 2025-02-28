@@ -8,7 +8,7 @@ def is_palindrome(s):
     return change == change[::-1]
 
 # Prompt the user to input a string
-text = input("Enter a string to check if it's a palindrome: ")
+text = input("Enter a word or sentence to check if it's a palindrome: ")
 
 # Print whether the input string is a palindrome or not
 print("The string is a palindrome." if is_palindrome(text) else "The string is not a palindrome.")
