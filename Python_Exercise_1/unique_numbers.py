@@ -13,7 +13,7 @@ if __name__ == "__main__":
     while True:
         try:
             # Replace commas with spaces, split by whitespace, and strip extra spaces
-            numbers_input = input("Enter numbers separated by spaces or commas: ").strip()
+            numbers_input = input("Enter numbers separated by spaces or commas to get unique numbers: ").strip()
             numbers_split = [num.strip() for num in numbers_input.replace(',', ' ').split() if num.strip()]
             
             # Convert inputs to integers
