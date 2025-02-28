@@ -11,7 +11,7 @@ def filter_vowel_words(words):
 # Input processing and filtering
 if __name__ == "__main__":
     """Extract words from input, filter those starting with vowels, and display the result."""
-    words_input = input("Enter words: ")
+    words_input = input("Enter any words or sentence for new list which starts with vowels:")
     # Use regex to extract clean words (allowing apostrophes within words)
     words = re.findall(r"\b[\w']+\b", words_input.lower())  # Convert to lowercase for case-insensitivity
     
